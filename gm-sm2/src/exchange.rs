@@ -19,7 +19,7 @@ pub struct Exchange {
     v: Option<Point>,
     r: Option<U256>,
     r_point: Option<Point>,
-    pub(crate) k: Option<Vec<u8>>,
+    pub k: Option<Vec<u8>>,
 
     rhs_za: [u8; 32],
     rhs_pk: Sm2PublicKey,
